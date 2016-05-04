@@ -1,0 +1,14 @@
+Soal Tes Praktikum 1
+
+Tugas Anda adalah membuat sebuah PHP sederhana, yang berisi formulir untuk mengisi tabel `request` pada database MySql `test`. Skrip sql untuk database tersebut ada di folder "NaylaKamilah/db/test.sql". Anda harus membuat formulir dan prosesnya dalam satu file PHP tersebut, dimana file itu di "NaylaKamilah/src/formulir.php".
+
+Anda kami beri waktu untuk mengerjakan tugas ini, sampai hari Kamis, tanggal 5 Mei 2016. Anda harus menggunakan sistem http://github.com untuk mengerjakan aplikasi ini. Semua file yang Anda butuhkan sudah ada di sana. Tugas Anda hanya harus mengedit file formulir.php tesebut, dan melakukan commit setelah selesai.
+
+Petunjuk:
+1. Anda harus memiliki/membuat akun di github.
+2. Anda harus kami invite dulu agar dapat akses ke repository proyeknya, dan sebelumnya Anda harus beri tahu dulu nama login Anda di github.
+3. Alamat repository proyeknya ada di https://github.com/virtunesia/recruitment-3-april-2016.
+4. Anda harus mempelajari/menguasai sistem aplikasi git (dalam hal ini adalah github).
+5. Anda boleh menggunakan git client apa pun untuk mengerjakan tugas ini (misal: GitKraken).
+6. Anda boleh menggunakan teks editor apa pun untuk mengedit file formulir.php itu.
+7. Anda wajib melakukan commit setelah seleai mengedit file apa pun, agar perubahan Anda segera tersimpan ke server.
