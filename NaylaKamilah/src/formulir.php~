@@ -1,1 +1,28 @@
-<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+String : <input type="text" name="string"</input>
+<input type="submit" name="submit" value="Submit Form"</input>
+</form>
+
+<?php
+$host = "localhost";
+$user = "root";
+$password = "";
+$db = "test";
+$conn = mysql_connect($host,$user,$password) or die (mysql_error());
+mysql_select_db($db,$conn) or die (mysql_error());
+
+if(isset($_POST['submit'])) 
+{
+	
+	$string = $_POST['string'];
+
+	$query = "insert into request (string) values ('$string')";
+	$res = mysql_query($query);
+	
+	if(!$res) {
+		echo '<script language = "javascript"> alert ("Failed, please Check the Query") </script>';
+		} else {
+			echo '<script language = "javascript"> alert ("Data Successfully Stored in Database") </script>';
+			}
+		}
+?>
