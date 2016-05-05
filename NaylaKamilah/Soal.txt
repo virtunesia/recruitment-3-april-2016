@@ -46,3 +46,5 @@ Sebagai sumber pembelajaran untuk REST service dengan PHP, bila dperlukan, adala
 5. Dan masih banyak lagi di Google.
 
 Anda kami ijinkan berkreasi dengan pemrograman PHP apa pun, untuk membuat REST service ini. Anda boleh menggunakan PHP biasa (plain) untuk mengerjakannya, atau Anda boleh menggunakan framework PHP apa pun yang sederhana, untuk membuat REST service ini berjalan sebagaimana diharapkan.
+
+Anda kami beri waktu sampai hari Jumat tanggal 6 Mei 2016, untuk menyelesaikan tugas ini. Bila ada kesulitan atau pertanyaan, segera tanyakan ke kami.
