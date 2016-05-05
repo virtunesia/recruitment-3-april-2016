@@ -25,4 +25,8 @@ if(isset($_POST['submit']))
 			echo '<script language = "javascript"> alert ("Data Successfully Stored in Database") </script>';
 			}
 		}
+		
+// Mana bagian html untuk formulir ini?
+// Masukkan tag html itu di sini dan action-nya adalah formulir.php ini juga
+		
 ?>
