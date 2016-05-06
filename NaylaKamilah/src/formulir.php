@@ -1,8 +1,9 @@
-<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+<html>
+<form action = "formulir.php" method="post">
 String : <input type="text" name="string"</input>
 <input type="submit" name="submit" value="Submit Form"</input>
 </form>
-
+</html>
 <?php
 $host = "localhost";
 $user = "root";
