@@ -6,22 +6,26 @@ $db = "test";
 $conn = mysql_connect($host,$user,$password) or die (mysql_error());
 mysql_select_db($db,$conn) or die (mysql_error());
 
+$xml=<<<XML
+<root>
+<string>TEKS</string>
+</root>
+XML;
 
-$filexml = simplexml_load_file("rest.xml");
+$dataString = simplexml_load_string($xml);
 	
-	$string = $filexml->string;
+	
+	$string = $dataString->string;
 
 	$query = "insert into request (string) values ('$string')";
 	$res = mysql_query($query);
 	
 	if($res) {
-		$xml = new DOMDocument("1.0","utf-8");
-		$xml_root = $xml->createElement("root");
-		$xml_result = $xml->createElement("result","OK");
-		$xml_root->appendChild($xml_result);
-		$xml->appendChild($xml_root);
-		
-		echo $xml->saveXML();
+		header("Content-type: text/xml");
+		echo "<?xml version = '1.0' encoding='UTF-8'?>";
+		echo "<root>";
+		echo "<result>OK</result>";
+		echo "</root>";
 		
 		}
 		else {
